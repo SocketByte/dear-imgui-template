@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.17)
-project(cherry)
+project(dear-imgui-template)
 
 set(CMAKE_CXX_STANDARD 20)
 set(LIBRARIES_DIR lib)
 
-add_executable(cherry
+add_executable(dear-imgui-template
         vendor/imgui_impl_glfw.h
         vendor/imgui_impl_glfw.cpp
         vendor/imgui_impl_opengl3.h
